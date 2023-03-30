@@ -1,3 +1,3 @@
 if (window.location.href.indexOf("dsc.place/demo") > -1) {
-  window.location.replace("https://dsc.place");
+  window.location.href = "https://dsc.place";
 }
