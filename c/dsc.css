@@ -28,7 +28,7 @@ nav {
 .nav-item {
     display: inline table-cell;
     color: #FFFFFF;
-    text-decoration: none;;
+    text-decoration: none;
     vertical-align: middle;
     padding-left: 10px;
 }
@@ -46,4 +46,13 @@ h1, h2, h3, h4, h5, h6, p {
 a {
     color: #007bff;
     text-decoration: none;
+}
+
+.left {
+    width: 50%;
+}
+.right {
+    width: 50%;
+    float:right;
+    margin-top: -700px;
 }
