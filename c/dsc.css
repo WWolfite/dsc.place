@@ -2,6 +2,7 @@ body {
     background-color: #000122;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
 }
 
 nav {
@@ -11,9 +12,17 @@ nav {
     background-color: #000115;
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+}
+
 .nav-logo {
     margin-left: 10px;
-    height: 50px;
+    height: 100%;
 }
 
 .logo {
@@ -31,6 +40,7 @@ nav {
     text-decoration: none;
     vertical-align: middle;
     padding-left: 10px;
+    height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -59,4 +69,14 @@ a {
 
 .official {
     color: #4ede6d;
+}
+
+::selection {
+    color: #FFFFFF;
+    background-color: #007bff53;
+}
+
+.list-display li {
+    height: 2.5vh !important;
+    width: 100% !important;
 }
